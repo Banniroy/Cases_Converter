@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: whitesmoke;
+
+}
+
+.title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    padding-bottom: 0.3rem;
+    font-family: sans-serif, cursive;
+}
+
+.textArea {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+textarea {
+    background-color: white;
+    height: 200px;
+    min-width: 90%;
+    outline: none;
+    border: 2px solid black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    height: 40px;
+}
+
+.Case {
+    cursor: pointer;
+    width: 74px;
+    text-align: center;
+    font-size: 0.6rem;
+    background-color: coral;
+    border: none;
+    height: 24px;
+    box-shadow: 1px 2px 3px black;
+    transition: all 0.3s ease-in-out;
+}
+
+.Case:hover {
+    opacity: 80%;
+    width: 77px;
+    height: 26px;
+}
+
